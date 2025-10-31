@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://cloud-backends.onrender.com/api";
 
 let accessToken = localStorage.getItem("accessToken");
 let refreshToken = localStorage.getItem("refreshToken");
