@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173", // frontend URL (Vite default)
+  origin: "https://cloud-frontend-lvgy.onrender.com", // frontend URL (Vite default)
   credentials: true
 }));
 app.use(express.json());
